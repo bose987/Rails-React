@@ -1,0 +1,112 @@
+body{font-family: 'Ropa Sans', sans-serif; color:#666; font-size:14px; color:#333;background-color:#1abc9c !important; }
+li,ul,body,input{margin:0; padding:0; list-style:none}
+#login-form{width:350px; background:#FFF; margin:0 auto; margin-top:10%; background:#f8f8f8; overflow:hidden; border-radius:7px}
+.form-header{display:table; clear:both}
+.form-header label{display:block; cursor:pointer; z-index:999}
+.form-header li{margin:0; line-height:60px; width:175px; text-align:center; background:#eee; font-size:18px; float:left; transition:all 600ms ease}
+.login{padding:20px}
+.ul-list{clear:both; display:table; width:100%}
+.ul-list:after{content:''; clear:both; display:table}
+.ul-list li{ margin:0 auto; margin-bottom:12px}
+.input{background:#fff; width:83%; border-radius:3px 0 0 3px; font-family: 'Ropa Sans', sans-serif; border:solid 1px #ccc; border-right:none; outline:none; color:#999; height:40px; line-height:40px; display:inline-block; padding-left:10px; font-size:16px}
+.input,.login span.icon{vertical-align:top}
+.login span.icon{width:50px; text-align:center; color:#999; height:40px; border-radius:0 3px 3px 0; background:#e8e8e8; height:40px; line-height:40px; display:inline-block; border:solid 1px #ccc; border-left:none; font-size:16px}
+.input:focus:invalid{border-color:red}
+.input:focus:invalid+.icon{border-color:red}
+.input:focus:valid{border-color:green}
+.input:focus:valid+.icon{border-color:green}
+.btn-login{border:none; outline:none; background:#0099CC; border-bottom:solid 4px #006699; font-family: 'Ropa Sans', sans-serif; margin:0 auto; display:block; height:40px; width:100%; padding:0 10px; border-radius:3px; font-size:16px; color:#FFF}
+.errorPopup{
+    position: absolute !important;
+    top: 10px;
+    right: 15px;
+    color: #FFFBD0;
+    background-color: rgba(164,82,9,0.6);
+    -webkit-transition: display 6s;
+    transition: display 6s;
+    border-radius: 6px
+}
+.errorPopup p{
+	padding: 15px;
+}
+.table-class {
+	display: table;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+.table-class .table-row{
+	display: table-row;
+    vertical-align: top;
+}
+.table-class .table-heading{
+	display: table-row;
+	padding: 5px;
+    vertical-align: top;
+}
+.table-class .table-cell{
+	padding: 5px;
+    border: 1px solid #999;
+	display: table-cell;
+    vertical-align: top;
+}
+.navbar{
+	margin: 10px 0 10px 0;
+}
+.cancel-btn{
+	margin: 0 10px 0 0;	
+}
+.txtCenter{
+	text-align: center;
+}
+.dashboard a{
+    background-color: #E8CD5A;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    color: #686763;
+    font-weight: 600; 
+}
+.dashboard{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px;
+}
+.dashboard a:hover{
+    background-color: #C6A32F;
+    text-decoration: none;
+    color: rgba(130,103,99,1);
+}
+.expense{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 20px 0 20px !important;
+    border-bottom: 1px solid #eee;
+}
+.couner{
+    position: absolute;
+    top: 0;
+    left: 70px;
+    background-color: #323a45;
+    color:white;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.nav  a{
+    font-weight:700
+}
+textarea {
+    resize: none;
+}
+@media screen and (max-width: 480px) {
+	#login-form{width:250px;}
+	.login {padding: 15px;}
+	.login span.icon {width: 34px;}
+}
